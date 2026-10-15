@@ -1,0 +1,163 @@
+
+/* ------------------------ */
+/* ------------------------ */
+/* our_projects */
+
+
+.our_projects{
+  margin-top: 80px;
+  background: #fff;
+}
+
+.our_projects_main{
+
+}
+
+.our_projects_title{
+font-family: var(--font-family);
+font-weight: 300;
+font-size: 42px;
+text-transform: uppercase;
+    color: #333333;
+        padding-top: 60px;
+}
+
+
+.our_projects_info{
+  margin-top: 75px;
+      display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.our_projects_info img{
+  width: 100%;
+  max-width: 650px;
+  height: auto;
+    background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+
+.our_projects_btns{
+  display: flex;
+  justify-content: center;
+    margin: 50px 0 80px;
+gap: 30px;
+}
+
+.our_projects_btns button{
+  background-color:transparent;
+border: 0;
+  width: 30px;
+  height: 30px;
+    cursor: pointer;
+}
+
+.our_projects_btn_prev{
+  background: url('../../assets/icon/prevArrow.svg') center / contain no-repeat;
+  
+}
+
+.our_projects_btn_next{
+  background: url('../../assets/icon/nextArrow.svg') center / contain no-repeat;
+}
+
+
+.our_projects_slide {
+  animation-duration: 0.45s;
+  animation-timing-function: cubic-bezier(0.22, 0.61, 0.36, 1);
+  animation-fill-mode: both;
+}
+
+.slide_next { animation-name: slideFromRight; }
+.slide_prev { animation-name: slideFromLeft; }
+
+@keyframes slideFromRight {
+  from { opacity: 0; transform: translateX(60px); }
+  to   { opacity: 1; transform: translateX(0); }
+}
+
+@keyframes slideFromLeft {
+  from { opacity: 0; transform: translateX(-60px); }
+  to   { opacity: 1; transform: translateX(0); }
+}
+
+.our_projects_btns button:disabled {
+  opacity: 0.4;
+  cursor: default;
+}
+
+/* ------------------------ */
+/* адаптация */
+/* adaptation */
+
+
+
+
+
+
+
+@media (max-width: 780px) {
+
+
+
+
+.our_projects_title{
+font-size: 33px;
+}
+
+
+
+
+
+
+
+
+}
+
+
+
+@media (max-width: 600px) {
+
+.our_projects_title{
+font-size: 28px;
+}
+
+
+
+
+
+
+}
+
+
+@media (max-width: 480px) {
+
+.our_projects_title{
+font-size: 25px;
+display: flex;
+justify-content: center;
+}
+
+
+
+
+
+
+
+}
+
+
+
+@media (max-width: 400px) {
+
+
+
+
+
+
+
+}

@@ -1,0 +1,149 @@
+{
+  "userEmail": [
+    {
+      "emailInfo": "email",
+      "id": "fjM3I0uyAgU"
+    },
+    {
+      "emailInfo": "s@1",
+      "id": "8d3Qg2sHIm0"
+    },
+    {
+      "emailInfo": "s@1",
+      "id": "xStswTDQREA"
+    },
+    {
+      "emailInfo": "s@1",
+      "id": "TcYOLbPPQtg"
+    },
+    {
+      "emailInfo": "d@1",
+      "id": "f9Y3EbG7cmc"
+    },
+    {
+      "emailInfo": "s@1",
+      "id": "JSQ5b5m5ijA"
+    },
+    {
+      "id": "ZWujuxgpIbM"
+    },
+    {
+      "id": "K-y-tO7E7N4"
+    },
+    {
+      "id": "Ua3-2Ij7S8I"
+    },
+    {
+      "emailInfo": [
+        {
+          "email": "s@1"
+        },
+        {
+          "email": "s@1"
+        },
+        {
+          "email": "s@1"
+        },
+        {
+          "email": "s@1"
+        }
+      ],
+      "id": "I32uvpyV-B4"
+    },
+    {
+      "emailInfo": "s@1",
+      "id": "yHP85DQU3Hc"
+    },
+    {
+      "emailInfo": "s@1",
+      "id": "R_wDGtvGQaI"
+    },
+    {
+      "emailInfo": [
+        {
+          "email": "s@1"
+        }
+      ],
+      "id": "ZZ2odJ6vRnI"
+    },
+    {
+      "emailInfo": [
+        {
+          "email": "s@1"
+        },
+        {
+          "email": "S@1"
+        }
+      ],
+      "id": "ss-2is1gfmI"
+    },
+    {
+      "emailInfo": [
+        {
+          "email": "s@1"
+        },
+        {
+          "email": "S@1"
+        },
+        {
+          "email": "S@1"
+        }
+      ],
+      "id": "a30v1FAztRc"
+    },
+    {
+      "emailInfo": [
+        {
+          "email": "s@1"
+        },
+        {
+          "email": "S@1"
+        },
+        {
+          "email": "S@1"
+        },
+        {
+          "email": "F@1"
+        }
+      ],
+      "id": "Q6SsOcQe9oY"
+    },
+    {
+      "emailInfo": {
+        "email": "s@1"
+      },
+      "id": "vul0VyxHTWI"
+    },
+    {
+      "emailInfo": {
+        "email": "d@1"
+      },
+      "id": "MV36pbm3Gtw"
+    },
+    {
+      "emailInfo": {
+        "email": "s@1"
+      },
+      "id": "38hYqx7X1JM"
+    },
+    {
+      "emailInfo": {
+        "email": "d@1"
+      },
+      "id": "OHvfDPAQCu4"
+    },
+    {
+      "emailInfo": {
+        "email": "s@1"
+      },
+      "id": "k_MuassW_6A"
+    },
+    {
+      "emailInfo": {
+        "email": "s@1"
+      },
+      "id": "nov0I3Nn3pI"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

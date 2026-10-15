@@ -1,0 +1,107 @@
+
+
+/* ------------------------ */
+/* ------------------------ */
+/* header  */
+
+.header_panel{
+  min-height: 700px;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header_panel_main{
+  display: flex;
+  flex-direction: column;
+gap: 30px;
+}
+
+.header_panel_main h2{
+font-family: var(--font-family);
+font-weight: 400;
+font-size: 80px;
+text-transform: uppercase;
+color: #333333;
+max-width: 900px;
+}
+
+.header_panel_main p {
+font-family: var(--font-family);
+font-weight: 400;
+font-size: 22px;
+color: #333333;
+width: 700px;
+}
+
+/* ------------------------ */
+/* адаптация */
+/* adaptation */
+
+
+
+@media (max-width: 1020px) {
+.header_panel_main h2{
+font-size: 73px;
+}
+
+.header_panel_main p {
+font-size: 17px;
+width: 550px;
+}
+}
+
+
+
+@media (max-width: 880px) {
+.header_panel_main h2{
+font-size: 65px;
+}
+
+.header_panel_main p {
+font-size: 14px;
+width: 500px;
+}
+}
+
+
+@media (max-width: 780px) {
+.header_panel_main {
+    text-align: center;
+    align-items: center;
+}
+
+  .header_panel_main h2{
+font-size: 58px;
+}
+
+.header_panel_main p {
+font-size: 11px;
+width: 370px;
+}
+}
+
+@media (max-width: 480px) {
+  .header_panel_main h2{
+font-size: 50px;
+}
+
+.header_panel_main p {
+font-size: 11px;
+width: 370px;
+}
+}
+
+@media (max-width: 380px) {
+  .header_panel_main h2{
+font-size: 42px;
+}
+
+.header_panel_main p {
+font-size: 7px;
+width: 230px;
+}
+}
+
+
+
